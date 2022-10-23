@@ -25,7 +25,7 @@ class homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("SAMAJA SEVA"),
+        title: const Text("GRAMA AYUSH"),
       ),
       body: Center(
             child: Padding(
