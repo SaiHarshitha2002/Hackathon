@@ -6,10 +6,13 @@ class health extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home:Center(
-        child: Text("ALL THE HEALTH TIPS ARE GIVEN HERE")
-      )
+    return  Scaffold(
+      appBar: AppBar(
+        title: const Text("HEALTH TIPS"),
+      ),
+      body: const Center(
+        child: Text("ALL THE HEALTH TIPS WILL BE SHOWN HERE"),
+      ),
     );
   }
 }

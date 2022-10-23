@@ -6,6 +6,13 @@ class events extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return  Scaffold(
+      appBar: AppBar(
+        title: const Text("EVENTS AND AWARENESS"),
+      ),
+      body: const Center(
+        child: Text("ALL THE EVENTS WILL BE SHOWN HERE"),
+      ),
+    );;
   }
 }

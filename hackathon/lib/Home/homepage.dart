@@ -52,6 +52,7 @@ class homepage extends StatelessWidget {
                   ),
           ),
         ),
+        const Padding(padding: EdgeInsetsDirectional.only(start: 10)),
         ElevatedButton(
                   onPressed: ()
                   {
@@ -92,6 +93,7 @@ class homepage extends StatelessWidget {
                     ),
             ),
           ),
+          const Padding(padding: EdgeInsetsDirectional.only(start: 10)),
           ElevatedButton(
                     onPressed: ()
                     {
